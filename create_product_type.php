@@ -19,7 +19,7 @@ if (!empty($_POST['name'])
 ?>
 
 <form method="post">
-    <label> Название товара </label>
+    <label> Категория товара </label>
     <input type="text" name="name">
     <br>
     <input type="submit">
