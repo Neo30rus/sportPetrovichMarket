@@ -34,7 +34,7 @@ if (!empty($_FILES)){
     <label> Название товара </label>
     <input type="text" name="title">
     <br>
-    <label> тип товара </label>
+    <label> Тип товара </label>
     <select name="type_id">
         <?php foreach ($types as $type):?>
             <option value="<?=$type['id'] ?>"><?=$type['name'] ?> </option>

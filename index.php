@@ -54,7 +54,7 @@ $productList = getProductList();
                                 </li>
                                 <?php if (!empty($_SESSION['user']['is_admin'])): ?>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="create_product_type.php">Создание типа товара</a>
+                                        <a class="nav-link" href="create_product_type.php">Создание категории товара</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="create_product.php">Создание товара</a>

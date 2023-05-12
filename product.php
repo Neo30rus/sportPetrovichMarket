@@ -41,7 +41,7 @@ $product= getProductById($product_id);
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1><?=$product['title']?> ( <?=$product['type']?> )</h1>
+                <h1><?=$product['title']?> (Категория: <?=$product['type']?> )</h1>
             </div>
 
             <div class="col-sm-4">
